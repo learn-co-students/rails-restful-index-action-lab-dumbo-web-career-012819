@@ -1,4 +1,4 @@
-# RESTful Index Action Lab
+w# RESTful Index Action Lab
 
 ## Objectives
 
@@ -17,7 +17,7 @@ In this lab you will walk through how to build each element required to render a
 list of students out in the browser. The RSpec/Capybara tests for this lab can
 be found in `spec/features`. Both tests should be passing to complete the lab.
 
-## Instructions
+## Instruction  
 
 - Run `bundle install` from your terminal
 
