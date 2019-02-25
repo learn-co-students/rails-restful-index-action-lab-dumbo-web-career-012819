@@ -13,9 +13,7 @@
 
 ## RESTful Routes
 
-In this lab you will walk through how to build each element required to render a
-list of students out in the browser. The RSpec/Capybara tests for this lab can
-be found in `spec/features`. Both tests should be passing to complete the lab.
+In this lab you will walk through how to build each element required to render a list of students out in the browser. The RSpec/Capybara tests for this lab can be found in `spec/features`. Both tests should be passing to complete the lab.
 
 ## Instructions
 
@@ -25,8 +23,7 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
 
 - Or one-line it if you feel fancy: `rake db:create && rake db:migrate && rake db:seed`
 
-- Create a route that is mapped to a students' controller index action, the
-  resulting route should be `/students`
+- Create a route that is mapped to a students' controller index action, the resulting route should be `/students`
 
 - Create a controller for students and have it inherit from
   ApplicationController
@@ -34,12 +31,9 @@ be found in `spec/features`. Both tests should be passing to complete the lab.
 - Integrate a controller action in the students' controller for handling the
   `index` action
 
-- Have the new `index` action call the Student model and pull in a list of all
-  of the students with `Student.all` and store it in an instance variable
+- Have the new `index` action call the Student model and pull in a list of all  of the students with `Student.all` and store it in an instance variable
 
-- Map an `index.html.erb` view file to the student controller and iterate over the
-  list of students returned from the index action in the controller. The
-  `index.html.erb` file should be placed within a `view/students` folder.
+- Map an `index.html.erb` view file to the student controller and iterate over the  list of students returned from the index action in the controller. The `index.html.erb` file should be placed within a `view/students` folder.
 
 ## Resources
 
